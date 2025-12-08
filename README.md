@@ -1,58 +1,114 @@
-📊 HR Data Analytics Project
-📌 Overview
+# HR-DATA-ANALYSIS
 
-This project focuses on analyzing HR data to uncover insights about employee performance, retention, and workforce trends.
-Using Power BI and Excel, we clean, transform, and visualize HR data to help decision-makers understand workforce dynamics.
+## 📌 Project Overview
+The **HR Data Analysis** project focuses on transforming raw employee data into meaningful business insights.  
+Using **Excel**, **SQL**, and **Power BI**, the project analyzes workforce demographics, employee performance, attrition rate, job satisfaction, salary structure, and overall HR KPIs to help organizations make better people-driven decisions.
 
-🗂 Project Structure
+This project demonstrates the complete workflow of HR analytics — from raw data cleaning to dashboard creation.
 
-HR DATA.xlsx → Raw HR dataset used for analysis
+---
 
-HR DATA ANALYSIS.pbix → Power BI dashboard for interactive visualization
+## 🧩 Project Work / Workflow
 
-README.md → Documentation of the project
+### **1️⃣ Data Understanding**
+- Loaded the raw HR dataset (`HR DATASET.xlsx`)
+- Understood columns such as:
+  - Employee ID  
+  - Age, Gender  
+  - Department  
+  - Salary, Job Role  
+  - Attrition  
+  - Tenure  
+  - Performance Rating  
+  - Education, Marital Status, etc.
 
-🚀 Features & Insights
+### **2️⃣ Data Cleaning & Preprocessing**
+Performed in **Excel** and **SQL**:
+- Removed duplicates and blank records  
+- Standardized categorical fields  
+- Fixed inconsistent formatting  
+- Replaced missing values with appropriate logic  
+- Converted data types (numeric, categorical, dates)  
+- Ensured all records matched business rules for analysis
 
-Employee attrition and retention analysis
+### **3️⃣ SQL Data Analysis**
+Ran several SQL queries to explore the dataset:
+- Department-wise employee distribution  
+- Average salary by job role  
+- Attrition count and rate  
+- Tenure analysis  
+- Performance rating distribution  
+- Finding patterns between salary, satisfaction, and attrition  
 
-Demographic breakdown (age, gender, department)
+SQL was used to derive cleaned and structured tables used later for dashboard reporting.
 
-Performance and satisfaction levels
+### **4️⃣ Power BI Data Modeling**
+- Imported cleaned dataset into Power BI  
+- Built data model with relationships  
+- Created calculated columns & DAX measures:
+  - Attrition Rate  
+  - Active Employees  
+  - Avg. Salary  
+  - Avg. Tenure  
+  - Employee Count by Department  
 
-Salary distribution and trends
+### **5️⃣ Power BI Dashboard Development**
+Designed an interactive HR dashboard showing insights such as:
 
-Key HR metrics presented in dashboards
+#### ⭐ Key KPIs
+- Total Employees  
+- Attrition Count & Attrition Rate  
+- Average Monthly Income  
+- Average Satisfaction Score  
+- Workforce Distribution  
 
-🛠 Tools & Technologies
+#### 📊 Visuals Included
+- Age distribution  
+- Salary range analysis  
+- Department-wise employee count  
+- Attrition by gender, age group, and department  
+- Job role vs. salary comparison  
+- Employee satisfaction & performance metrics  
 
-Power BI → Interactive dashboards and visualization
+The dashboard allows HR professionals to quickly identify:
+- Departments with high attrition  
+- Areas needing retention strategies  
+- Salary imbalances  
+- Workforce demographic trends  
 
-Excel → Data preprocessing and exploration
+---
 
-📸 Dashboard Preview
+## 📁 Repository Structure
 
-👉 (You can add screenshots of your Power BI dashboard here for better presentation.)
+---
 
-🔧 How to Use
+## 🛠️ Tools & Technologies
+- **Power BI** — Interactive dashboard and KPIs  
+- **Excel** — Initial data cleaning and exploration  
+- **SQL** — Data transformation & analytical queries  
 
-Clone or download this repository.
+---
 
-Open HR DATA.xlsx in Excel to explore the dataset.
+## 💡 Key Insights from the Project
+- Younger workforce shows higher attrition  
+- Certain departments have more turnover  
+- Employees with low satisfaction scores are more likely to leave  
+- Salary gap visible across different job roles  
+- Tenure strongly impacts attrition probability  
 
-Open HR DATA ANALYSIS.pbix in Power BI Desktop.
+---
 
-Interact with the dashboards to analyze insights.
+## 🎯 Learning Outcomes
+- Practical end-to-end HR analytics workflow  
+- Creating DAX measures and Power BI visuals  
+- Writing SQL queries for HR metrics  
+- Understanding HR KPIs and workforce analytics  
+- Turning raw HR data into actionable business decisions  
 
-🎯 Key Learnings
 
-Data cleaning and preprocessing
 
-Creating meaningful KPIs for HR analytics
 
-Building interactive dashboards with Power BI
 
-Turning raw data into actionable insights
 
 📌 Author
 
