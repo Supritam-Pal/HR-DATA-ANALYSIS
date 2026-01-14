@@ -1,4 +1,8 @@
 # HR-DATA-ANALYSIS
+<img width="965" height="575" alt="Screenshot 2026-01-15 012405" src="https://github.com/user-attachments/assets/d210492c-e59d-4ba7-9395-89863e55bda5" />
+
+<img width="971" height="590" alt="Screenshot 2026-01-15 012424" src="https://github.com/user-attachments/assets/8abbb341-c0c4-4467-84ad-07cfef60cedb" />
+
 
 ## 📌 Project Overview
 The **HR Data Analysis** project focuses on transforming raw employee data into meaningful business insights.  
